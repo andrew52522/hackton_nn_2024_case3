@@ -20,7 +20,7 @@ def preprocessing(frame, chk):
     cv2.destroyAllWindows()
     cv2.imwrite('frame.jpg', frame)
 
-def count_people(image_path = 'files/1.jpg'):
+def count_people(image_path = 'static/1.jpg'):
     model = YOLO('yolov8n.pt') 
     preprocessing(cv2.imread(image_path), chk)
     image = cv2.imread('frame.jpg')
