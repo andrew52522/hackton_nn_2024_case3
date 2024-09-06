@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 
 
 # папка для сохранения загруженных файлов
-UPLOAD_FOLDER = 'files/'
+UPLOAD_FOLDER = 'static/'
 # расширения файлов, которые разрешено загружать
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
